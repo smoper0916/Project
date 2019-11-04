@@ -15,7 +15,16 @@
 기존 프로그램과 가장 큰 차별점은 지역마다 특색있는 고화질의 배경이미지를 설정하여 그 지역의 분위기가 날 수 있게 하였습니다.
 낮에는 그 지역의 아름다운 주경, 밤에는 그 지역에서만 볼 수 있는 야경을 넣었습니다.
 
+DB 조회를 위해 php를 통해 웹페이지를 구현하였습니다.
+그래서 C++/CLI에서 php 페이지로 요청을 넣으면 알맞은 기능을 수행하여 결과로 가져옵니다. 
+
 DB에는 각 행정동의 정보와 기상청에서 제공하는 지역코드를 맵핑해놓은 테이블과..
+
+### DB 스키마
+![Alt text](/se_all_region table.PNG)
+![Alt text](/se_region_list table.PNG)
+![Alt text](/se_std_region_list table.PNG)
+![Alt text](/se_day_forecast table.PNG)
 
 ## 스크린샷
 ![Alt text](/p1_cap1.png)
