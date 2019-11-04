@@ -20,20 +20,20 @@ DB 조회를 위해 php를 통해 웹페이지를 구현하였습니다.
 
 ### DB 스키마
 **테이블명** : se_all_region  
-이 테이블은 각 지역별로 기상청에서 제공하는 기준지역코드와 맵핑해놓은 테이블입니다.
+이 테이블은 각 지역별로 기상청에서 제공하는 기준지역코드와 맵핑해놓은 테이블입니다.  
 <img src="/se_all_region%20table.PNG" width="300px" height="600px" title="" alt=""></img><br/>
   
 **테이블명** : se_std_region_list  
-이 테이블은 기상청에서 제공하는 기준지역코드 리스트 테이블입니다.
+이 테이블은 기상청에서 제공하는 기준지역코드 리스트 테이블입니다.  
 <img src="/se_std_region_list%20table.PNG" width="300px" height="600px" title="" alt=""></img><br/>
   
 **테이블명** : se_region_list  
-이 테이블은 모든 행정동과 그의 위도, 경도 정보를 담고 있는 리스트 테이블입니다.
+이 테이블은 모든 행정동과 그의 위도, 경도 정보를 담고 있는 리스트 테이블입니다.  
 <img src="/se_region_list%20table.PNG" width="300px" height="600px" title="" alt=""></img><br/>
   
 **테이블명** : se_day_forecast  
-이 테이블은 주간날씨를 담고 있는 테이블입니다. 
-<img src="/se_day_forecast%20table.PNG" width="300px" height="600px" title="" alt=""></img><br/>
+이 테이블은 주간날씨를 담고 있는 테이블입니다.   
+<img src="/se_day_forecast%20table.PNG" width="1300px" height="890px" title="" alt=""></img><br/>
   
 ## 스크린샷
 ![Alt text](/p1_cap1.png)
