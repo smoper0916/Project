@@ -21,7 +21,7 @@ DB 조회를 위해 php를 통해 웹페이지를 구현하였습니다.
 ### DB 스키마
 테이블명 : se_all_region
 이 테이블은 각 지역별로 기상청에서 제공하는 기준지역코드와 맵핑해놓은 테이블입니다.
-<img src="/se_all_region%20table.PNG" width="100px" height="200px" title="" alt=""></img><br/>
+<img src="/se_all_region%20table.PNG" width="300px" height="600px" title="" alt=""></img><br/>
 ![Alt text](/se_region_list%20table.PNG)
 ![Alt text](/se_std_region_list%20table.PNG)
 ![Alt text](/se_day_forecast%20table.PNG)
