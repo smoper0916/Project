@@ -1,9 +1,9 @@
 # 날씨정보소프트웨어 Project
 ## 개요
-프로젝트 기간 : 2015.09.10~2015.12.10  
-개발환경 : Visual Studio  
-개발언어 : C++/CLI, PHP  
-제작자 : 최재혁, 윤정근, 김민홍, 최정헌, 정재훈 (총 5명)  
+**프로젝트 기간** : 2015.09.10~2015.12.10  
+**개발환경** : Visual Studio  
+**개발언어** : C++/CLI, PHP  
+**제작자** : 최재혁, 윤정근, 김민홍, 최정헌, 정재훈 (총 5명)  
 
 이 프로젝트는 금오공과대학교 2학년 2학기 '프로그래밍설계' 과목 프로젝트입니다.
 이 프로젝트는 C, C++ 계열의 언어만 사용해야하며 C#, Java 등의 언어는 사용 불가능하다는 제한사항이 있었습니다.
@@ -19,13 +19,22 @@ DB 조회를 위해 php를 통해 웹페이지를 구현하였습니다.
 그래서 C++/CLI에서 php 페이지로 요청을 넣으면 알맞은 기능을 수행하여 결과로 가져옵니다. 
 
 ### DB 스키마
-테이블명 : se_all_region
+**테이블명** : se_all_region  
 이 테이블은 각 지역별로 기상청에서 제공하는 기준지역코드와 맵핑해놓은 테이블입니다.
 <img src="/se_all_region%20table.PNG" width="300px" height="600px" title="" alt=""></img><br/>
-![Alt text](/se_region_list%20table.PNG)
-![Alt text](/se_std_region_list%20table.PNG)
-![Alt text](/se_day_forecast%20table.PNG)
-
+  
+**테이블명** : se_std_region_list  
+이 테이블은 기상청에서 제공하는 기준지역코드 리스트 테이블입니다.
+<img src="/se_std_region_list%20table.PNG" width="300px" height="600px" title="" alt=""></img><br/>
+  
+**테이블명** : se_region_list  
+이 테이블은 모든 행정동과 그의 위도, 경도 정보를 담고 있는 리스트 테이블입니다.
+<img src="/se_region_list%20table.PNG" width="300px" height="600px" title="" alt=""></img><br/>
+  
+**테이블명** : se_day_forecast  
+이 테이블은 주간날씨를 담고 있는 테이블입니다. 
+<img src="/se_day_forecast%20table.PNG" width="300px" height="600px" title="" alt=""></img><br/>
+  
 ## 스크린샷
 ![Alt text](/p1_cap1.png)
 ![Alt text](/p1_cap2.png)
