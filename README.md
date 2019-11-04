@@ -21,10 +21,10 @@ DB 조회를 위해 php를 통해 웹페이지를 구현하였습니다.
 DB에는 각 행정동의 정보와 기상청에서 제공하는 지역코드를 맵핑해놓은 테이블과..
 
 ### DB 스키마
-![Alt text](/se_all_region table.PNG)
-![Alt text](/se_region_list table.PNG)
-![Alt text](/se_std_region_list table.PNG)
-![Alt text](/se_day_forecast table.PNG)
+![Alt text](/se_all_region%20%table.PNG)
+![Alt text](/se_region_list%20%table.PNG)
+![Alt text](/se_std_region_list%20%table.PNG)
+![Alt text](/se_day_forecast%20%table.PNG)
 
 ## 스크린샷
 ![Alt text](/p1_cap1.png)
